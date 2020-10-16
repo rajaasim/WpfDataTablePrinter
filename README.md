@@ -9,6 +9,8 @@ Settings:
 
 cellsPadding  = 5
 cellsBorderThickness = 1;
+columnHeadersFontSize = 18;
+columnHeadersFontWeight = FontWeights.Bold;
 columnHeadersTextAlignment = TextAlignment.Left
 pagePadding = 50;
 fontFamily = "Calibri"
@@ -84,6 +86,8 @@ footers.Add(footer1);
 settings.headers = headers;
 settings.footers = footers;
 settings.fontFamily = "Calibri";
+settings.columnHeadersFontSize = 18;
+settings.columnHeadersFontWeight = FontWeights.Bold;
 settings.columnHeadersTextAlignment = TextAlignment.Center;
 settings.fontSize = 15;
 settings.pagePadding = 50;

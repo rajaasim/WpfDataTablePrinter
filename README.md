@@ -55,4 +55,4 @@ private void btn_print_Click(object sender, RoutedEventArgs e)
 
             wpfPrinter.Print(daybook_table, settings);
         }
-        ```
+```

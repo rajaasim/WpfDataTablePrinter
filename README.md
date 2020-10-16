@@ -31,7 +31,7 @@ text = "Footer"
 fontSize = 20
 fontWeight = FontWeights.Bold
 alignment = TextAlignment.Center
-bottomSpacing = 15
+topSpacing = 15
 ```
 
 

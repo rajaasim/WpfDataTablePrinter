@@ -3,6 +3,37 @@ A DataGrid / DataTable Printer for WPF (CSHARP / C#)
 
 Note that all available settings have defaults.
 
+Defaults:
+```
+Settings:
+
+cellsPadding  = 5
+cellsBorderThickness = 1;
+columnHeadersTextAlignment = TextAlignment.Left
+pagePadding = 50;
+fontFamily = "Calibri"
+fontSize = 15
+headers = Empty List, No Headers will be applied
+footers = Empty List, No Footers will be applied
+------------------------------------------------------------------
+
+header:
+
+text = "Header"
+fontSize = 25
+fontWeight = FontWeights.Bold
+alignment = TextAlignment.Center
+bottomSpacing = 20
+------------------------------------------------------------------
+
+footer:
+text = "Footer"
+fontSize = 20
+fontWeight = FontWeights.Bold
+alignment = TextAlignment.Center
+bottomSpacing = 15
+```
+
 
 Sample Usage
 

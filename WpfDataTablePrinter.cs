@@ -31,6 +31,8 @@ class WpfDataTablePrinter
     {
         public double cellsPadding { get; set; } = 5;
         public double cellsBorderThickness { get; set; } = 1;
+        public double columnHeadersFontSize { get; set; } = 18;
+        public FontWeight columnHeadersFontWeight { get; set; } = FontWeights.Bold;
         public TextAlignment columnHeadersTextAlignment { get; set; } = TextAlignment.Left;
         public double pagePadding { get; set; } = 50;
         public string fontFamily { get; set; } = "Calibri";
@@ -71,6 +73,8 @@ class WpfDataTablePrinter
             table.Columns.Add(tableColumn);
             var cell = new TableCell(new Paragraph(new Run(column.ColumnName)));
             cell.TextAlignment = settings.columnHeadersTextAlignment;
+            cell.FontSize = settings.columnHeadersFontSize;
+            cell.FontWeight = settings.columnHeadersFontWeight;
             columnsRow.Cells.Add(cell);
         }
 

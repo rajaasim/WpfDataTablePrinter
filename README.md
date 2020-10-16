@@ -5,8 +5,6 @@ Note that all available settings have defaults.
 Sample Usage
 
 ```
-private void btn_print_Click(object sender, RoutedEventArgs e)
-        {
             WpfDataTablePrinter wpfPrinter = new WpfDataTablePrinter();
             WpfDataTablePrinter.Settings settings = new WpfDataTablePrinter.Settings();
             List<WpfDataTablePrinter.header> headers = new List<WpfDataTablePrinter.header>();
@@ -54,5 +52,4 @@ private void btn_print_Click(object sender, RoutedEventArgs e)
             settings.cellsBorderThickness = 1;
 
             wpfPrinter.Print(daybook_table, settings);
-        }
 ```

@@ -1,5 +1,5 @@
 # WpfDataTablePrinter
-A DataGrid / DataTable Printer for WPF 
+A DataGrid / DataTable Printer for WPF (CSHARP / C#)
 
 Note that all available settings have defaults.
 
